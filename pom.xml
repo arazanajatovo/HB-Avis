@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>fr.humanbooster.ar</groupId>
-	<artifactId>avis</artifactId>
+	<artifactId>ar-avis</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>avis</name>
 	<description>Projet avis sur les jeux vidéo</description>
