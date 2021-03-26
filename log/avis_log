@@ -1,0 +1,63 @@
+2021-03-26 11:25:10.839  INFO 11920 --- [restartedMain] fr.humanbooster.ar.avis.AvisApplication  : Starting AvisApplication using Java 15.0.1 on SHADOW-475CTEV5 with PID 11920 (C:\Users\Shadow\OneDrive\Bureau\1-HumanBooster\eclipse-workspace\avis-Complet\target\classes started by Shadow in C:\Users\Shadow\OneDrive\Bureau\1-HumanBooster\eclipse-workspace\avis-Complet)
+2021-03-26 11:25:10.853  INFO 11920 --- [restartedMain] fr.humanbooster.ar.avis.AvisApplication  : No active profile set, falling back to default profiles: default
+2021-03-26 11:25:10.948  INFO 11920 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-26 11:25:10.949  INFO 11920 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-26 11:25:12.351  INFO 11920 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-26 11:25:12.585  INFO 11920 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 220 ms. Found 9 JPA repository interfaces.
+2021-03-26 11:25:13.887  INFO 11920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8180 (http)
+2021-03-26 11:25:13.905  INFO 11920 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-26 11:25:13.906  INFO 11920 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-26 11:25:14.478  INFO 11920 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-03-26 11:25:14.496  INFO 11920 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-26 11:25:14.497  INFO 11920 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3546 ms
+2021-03-26 11:25:14.577  INFO 11920 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-26 11:25:14.958  INFO 11920 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-26 11:25:14.967  INFO 11920 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/avis?useSSL=false&serverTimezone=UTC'
+2021-03-26 11:25:15.221  INFO 11920 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-26 11:25:15.308  INFO 11920 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-26 11:25:15.550  INFO 11920 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-26 11:25:15.762  INFO 11920 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-03-26 11:25:17.053  INFO 11920 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-26 11:25:17.066  INFO 11920 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-26 11:25:17.095  INFO 11920 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-26 11:25:18.275  WARN 11920 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-26 11:25:18.424  INFO 11920 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-26 11:25:18.587  INFO 11920 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-03-26 11:25:18.873  INFO 11920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8180 (http) with context path ''
+2021-03-26 11:25:18.885  INFO 11920 --- [restartedMain] fr.humanbooster.ar.avis.AvisApplication  : Started AvisApplication in 8.711 seconds (JVM running for 9.652)
+2021-03-26 11:25:30.885  INFO 11920 --- [http-nio-8180-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-26 11:25:30.885  INFO 11920 --- [http-nio-8180-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-26 11:25:30.888  INFO 11920 --- [http-nio-8180-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-03-26 11:25:32.861  WARN 11920 --- [http-nio-8180-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [159] milliseconds.
+2021-03-26 11:26:23.072  INFO 11920 --- [Thread-4] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-26 11:26:23.076  INFO 11920 --- [Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-26 11:26:23.080  INFO 11920 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-03-26 11:26:23.089  INFO 11920 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-03-26 11:26:23.253  INFO 11920 --- [restartedMain] fr.humanbooster.ar.avis.AvisApplication  : Starting AvisApplication using Java 15.0.1 on SHADOW-475CTEV5 with PID 11920 (C:\Users\Shadow\OneDrive\Bureau\1-HumanBooster\eclipse-workspace\avis-Complet\target\classes started by Shadow in C:\Users\Shadow\OneDrive\Bureau\1-HumanBooster\eclipse-workspace\avis-Complet)
+2021-03-26 11:26:23.254  INFO 11920 --- [restartedMain] fr.humanbooster.ar.avis.AvisApplication  : No active profile set, falling back to default profiles: default
+2021-03-26 11:26:23.695  INFO 11920 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-26 11:26:23.834  INFO 11920 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 137 ms. Found 9 JPA repository interfaces.
+2021-03-26 11:26:23.988  INFO 11920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8180 (http)
+2021-03-26 11:26:23.990  INFO 11920 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-26 11:26:23.990  INFO 11920 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-26 11:26:24.262  INFO 11920 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-03-26 11:26:24.269  INFO 11920 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-26 11:26:24.270  INFO 11920 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1010 ms
+2021-03-26 11:26:24.290  INFO 11920 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2021-03-26 11:26:24.296  INFO 11920 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2021-03-26 11:26:24.296  INFO 11920 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/avis?useSSL=false&serverTimezone=UTC'
+2021-03-26 11:26:24.366  INFO 11920 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-26 11:26:24.381  INFO 11920 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-03-26 11:26:24.596  INFO 11920 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-26 11:26:24.597  INFO 11920 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-26 11:26:24.611  INFO 11920 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-26 11:26:25.009  WARN 11920 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-26 11:26:25.052  INFO 11920 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-26 11:26:25.078  INFO 11920 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-03-26 11:26:25.139  INFO 11920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8180 (http) with context path ''
+2021-03-26 11:26:25.144  INFO 11920 --- [restartedMain] fr.humanbooster.ar.avis.AvisApplication  : Started AvisApplication in 1.953 seconds (JVM running for 75.911)
+2021-03-26 11:26:25.147  INFO 11920 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-03-26 11:27:48.556  INFO 11920 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-26 11:27:48.558  INFO 11920 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-26 11:27:48.559  INFO 11920 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2021-03-26 11:27:48.561  INFO 11920 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.

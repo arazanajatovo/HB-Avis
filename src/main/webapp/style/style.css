@@ -1,0 +1,35 @@
+@charset "ISO-8859-1";
+
+a {
+	text-decoration: none;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+thead {
+	background-color: #666;
+}
+
+tbody {
+	text-align: center;
+}
+
+th,
+td {
+	border: 1px solid;
+}
+
+.erreur {
+	color:red;
+}
+
+.desc {
+	height: 100px;
+	width: 400px;
+}
+
+img {
+	width: 80px;
+}
