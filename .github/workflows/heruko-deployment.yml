@@ -14,7 +14,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Deploy Avis to Heruko
+    - name: Deploy to Heruko
       uses: AkhileshNS/heroku-deploy@v3.12.12
       with:
         heroku_api_key: ${{secrets.HERUKO_API_KEY}}
